@@ -1,8 +1,12 @@
 {
-  "name": "@aleksanda-ratanasov/beerjs",
+  "name": "@aleksandar-atanasov/beerjs-library",
   "version": "1.0.0",
   "author": {
     "name": "Aleksandar Atanasov"
+  },
+  "repository": {
+     "type": "git",
+    "url": "https://github.com/AtanasovAleksandar/beerjs-library"
   },
   "private": false,
   "description": "test library",
