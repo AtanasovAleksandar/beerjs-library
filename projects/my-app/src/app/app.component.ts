@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MyLibComponent } from 'my-lib';
+import { LibModule, MyLibComponent } from '@beerjs-library';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MyLibComponent],
+  imports: [RouterOutlet, MyLibComponent, LibModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
